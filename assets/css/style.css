@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@100;200;300;400;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    max-width: 100%;
+    font-family: 'Commissioner', sans-serif;
+    overflow-x: hidden;
+}
+
+
+.hero_main{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/hero-img.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.hero_main .navbar{
+    padding: 20px 0px;
+}
+.hero_main .navbar .navbar-brand{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 150%;
+    color: white;
+}
+.hero_main .navbar .nav-item{
+    margin-right: 14px;
+}
+.hero_main .navbar .nav-item .nav-link{
+    color: white;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+}
+.hero_main .navbar .icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 120px;
+}
+.hero_main .navbar .icons img{
+    width: 18px;
+    margin-right: 15px;
+}
