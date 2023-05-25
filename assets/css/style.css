@@ -593,3 +593,10 @@ footer ul li{
     font-weight: 300;
     margin-bottom: 10px;
 }
+footer .logo .icons{
+    margin-top: 40px;
+}
+footer .logo .icons img{
+    width: 22px;
+    margin-right: 18px;
+}
