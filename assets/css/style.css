@@ -299,7 +299,7 @@ body{
     color: #2F5233;
 }
 .work_section .description{
-    margin-bottom: 20px;
+    margin-bottom: 28px;
     width: 94%;
     font-style: normal;
     font-weight: 400;
@@ -330,4 +330,69 @@ body{
     background-repeat: no-repeat;
     transform: matrix(-0.43, -0.9, -0.9, 0.43, 0, 0);
     bottom: -50px;
+}
+
+
+
+
+
+
+
+/* cactus section css  */
+.cactus_section{
+    margin-top: 85px;
+    margin-bottom: 75px;
+}
+.cactus_section .head{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 43px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 40px;
+}
+.cactus_section .card__{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.cactus_section .card__ .name{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    margin-top: 10px;
+    line-height: 150%;
+    text-align: center;
+    color: #1A140F;
+    margin-bottom: 5px;
+}
+.cactus_section .card__ .price{
+    text-align: center;
+}
+.cactus_section .card__ .price .old{
+    position: relative;
+    margin-right: 15px;
+}
+.cactus_section .card__ .price .old::after{
+    content: '';
+    border-top: 1.6px solid #E84F27;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0px;
+    top: 10px;
+}
+.cactus_section .card__ .img_box{
+    position: relative;
+}
+.cactus_section .card__ .off{
+    position: absolute;
+    background: #2F5233;
+    border-radius: 8px 0px;
+    top: 0px;
+    color: white;
+    padding: 10px 22px;
+    left: 0px;
 }
