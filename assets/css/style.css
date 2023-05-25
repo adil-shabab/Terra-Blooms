@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@100;200;300;400;600;700;800;900&display=swap');
+
+/* global css  */
 *{
     margin: 0;
     padding: 0;
@@ -11,6 +13,8 @@ body{
 }
 
 
+
+/* hero section css  */
 .hero_main{
     width: 100%;
     height: 100vh;
@@ -18,9 +22,18 @@ body{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.hero_main header{
+    position: absolute;
+    top: 0;
+    width: 100%;
 }
 .hero_main .navbar{
-    padding: 20px 0px;
+    padding: 25px 0px;
 }
 .hero_main .navbar .navbar-brand{
     font-style: normal;
@@ -47,4 +60,41 @@ body{
 .hero_main .navbar .icons img{
     width: 18px;
     margin-right: 15px;
+}
+.hero_main .content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.hero_main .content .heading{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 75px;
+    line-height: 100%;
+    text-align: center;
+    color: white;
+}
+.hero_main .content .buttons{
+    margin-top: 30px;
+}
+.hero_main .content .buttons button:first-child{
+    padding: 12px 25px;
+    background: #F2FFF4;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    color: #2F5233;
+    margin-right: 20px;
+    border: 2px solid #F2FFF4;
+}
+.hero_main .content .buttons button:last-child{
+    padding: 10px 25px;
+    background: transparent;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    color: white;
+    border: 2px solid #F2FFF4;
+
 }
