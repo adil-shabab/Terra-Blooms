@@ -282,3 +282,52 @@ body{
     padding: 10px 22px;
     left: 0px;
 }
+
+
+
+
+/* our work section css  */
+.work_section{
+    margin-top: 75px;
+    position: relative;
+}
+.work_section .head{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #2F5233;
+}
+.work_section .description{
+    margin-bottom: 20px;
+    width: 94%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #333333;
+}
+.work_section .right_box{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.work_section button{
+    border: 1px solid #1A140F;
+    border-radius: 8px;
+    background: white;
+    outline: none;
+    padding: 10px 25px;
+    width: fit-content;
+}
+.work_section .bg{
+    position: absolute;
+    width: 339px;
+    height: 305px;
+    right: -125px;
+    background: url(../img/service-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    transform: matrix(-0.43, -0.9, -0.9, 0.43, 0, 0);
+    bottom: -50px;
+}
