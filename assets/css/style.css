@@ -480,7 +480,7 @@ body{
 
 
 
-
+/* testimonial section css  */
 .testimonial_section{
     margin-top: 150px;
     margin-bottom: 100px;
@@ -540,4 +540,56 @@ body{
 }
 .slick-dots{
     bottom: -35px;
+}
+
+
+
+
+
+
+/* footer css  */
+footer{
+    margin-top: 40px;
+    padding: 60px 0px;
+    color: white;
+    background: #2F5233;
+}
+footer .logo h3{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 34px;
+    color: #F2FFF4;
+    margin-bottom: 20px;
+}
+footer .logo p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #F2FFF4;
+}
+footer .heading{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 35px;
+    color: #FFFFFF;
+    position: relative;
+}
+footer .heading::after{
+    content: '';
+    width: 52px;
+    height: 2px;
+    background: white;
+    position: absolute;
+    bottom: -7px;
+    left: 2px;
+}
+footer ul{
+    padding: 0px;
+}
+footer ul li{
+    list-style: none;
+    font-size: 15px;
+    font-weight: 300;
+    margin-bottom: 10px;
 }
