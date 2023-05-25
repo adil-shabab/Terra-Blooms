@@ -396,3 +396,77 @@ body{
     padding: 10px 22px;
     left: 0px;
 }
+
+
+
+
+
+/* Aquarium section css  */
+.aquarium_section .img_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.aquarium_section .img_box{
+    position: relative;
+}
+.aquarium_section .img_box .main-img{
+    z-index: 1;
+    width: 80%;
+    position: relative;
+}
+.aquarium_section .img_box::before{
+    content: '';
+    background: url(../img/aquarium-top-right.png);
+    width: 250px;
+    height: 185px;
+    position: absolute;
+    top: -70px;
+    right: -86px;
+    background-size: cover;
+    z-index: -1;
+}
+.aquarium_section .img_box::after{
+    content: '';
+    background: url(../img/aquarium-bottom-right.png);
+    width: 243px;
+    height: 350px;
+    position: absolute;
+    bottom: -104px;
+    right: -7px;
+    background-size: cover;
+    z-index: -1;
+}
+.aquarium_section .img_box .left{
+    position: absolute;
+    left: -85px;
+    z-index: 0;
+}
+.aquarium_section .txt_box{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+}
+.aquarium_section .txt_box .head{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 43px;
+    color: #2F5233;
+}
+.aquarium_section .txt_box .description{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: #333333;
+}
+.aquarium_section .txt_box button{
+    border: 1px solid #1A140F;
+    border-radius: 8px;
+    background: white;
+    outline: none;
+    padding: 10px 25px;
+    width: fit-content;
+}
