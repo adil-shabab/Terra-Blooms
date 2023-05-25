@@ -402,6 +402,10 @@ body{
 
 
 /* Aquarium section css  */
+.aquarium_section{
+    margin-top: 50px;
+    margin-bottom: 70ox;
+}
 .aquarium_section .img_box{
     display: flex;
     justify-content: center;
@@ -469,4 +473,71 @@ body{
     outline: none;
     padding: 10px 25px;
     width: fit-content;
+}
+
+
+
+
+
+
+
+.testimonial_section{
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+.testimonial_section .heading{
+    font-style: normal;
+    font-weight: 500;
+    text-align: center;
+    font-size: 45px;
+    color: #2F5233;
+    margin-bottom: 40px;
+}
+.testimonial_section .quote{
+    width: 25px;
+    margin-bottom: 18px;
+}
+.testimonial_section .review{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #333333;
+}
+.testimonial_section .name{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0.005em;
+    color: #2F5233;
+    width: fit-content;
+    position: relative;
+    padding-left: 90px;
+}
+.testimonial_section .name::before{
+    content: '';
+    width: 80px;
+    height: 1.5px;
+    position: absolute;
+    left: 0px;
+    border-top: 2px solid #2F5233;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 14px;
+
+}
+.testimonial_section .box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+}
+.slick-dots li button:before{
+    font-size: 15px !important;
+}
+.slick-dots{
+    bottom: -35px;
 }
