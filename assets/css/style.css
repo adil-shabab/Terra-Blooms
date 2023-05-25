@@ -98,3 +98,125 @@ body{
     border: 2px solid #F2FFF4;
 
 }
+
+
+
+
+
+/* service section css start  */
+.service_section{
+    margin-top: 75px;
+    position: relative;
+    margin-bottom: 75px;
+}
+.service_section .bg{
+    position: absolute;
+    width: 339px;
+    height: 305px;
+    left: -125px;
+    background: url(../img/service-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    transform: rotate(-49.45deg);
+}
+.service_section .heading{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 110%;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 50px;
+}
+.service_section .service{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.service_section .service img{
+    width: 100px;
+}
+.service_section .service .head{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 28px;
+    color: #000000;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+.service_section .service .description{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #999999;
+}
+
+
+
+
+
+/* card section css start  */
+.card_section{
+    margin-bottom: 50px;
+}
+.card_section .main-txt{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    color: #F2FFF4;
+    position: absolute;
+    top: 43px;
+    z-index: 1;
+    left: 36%;
+    padding-right: 80px;
+}
+.card_section .sub-txt{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    color: #fff4f4;
+    position: absolute;
+    top: 125px;
+    z-index: 1;
+    left: 36%;
+    padding-right: 75px;
+}
+.card_section .card__{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+    height: 310px;
+    border-radius: 10px;
+}
+.card_section .card__.first{
+    background: #DBEAEB;
+}
+.card_section .card__.second{
+    background: #EFE9E0;
+}
+.card_section .card__ .vector{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+.card_section .card__ .plant.first{
+    width: 270px;
+    position: absolute;
+    left: -40px;
+    bottom: -17px;
+}
+.card_section .card__ .plant.second{
+    width: 210px;
+    position: absolute;
+    left: -20px;
+    bottom: -17px;
+}
+.card_section .card__ .vector{
+    width: 460px;
+    height: 245px;
+}
