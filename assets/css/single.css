@@ -80,7 +80,7 @@
     margin-top: 30px;
 }
 .details_section ul li{
-    margin-bottom: 5px;
+    margin-bottom: 7px;
 }
 .details_section .third_column .parent{
     display: flex;
@@ -89,6 +89,7 @@
 .details_section .third_column .parent .count{
     display: flex;
     border: 1px solid black;
+    width: 26%;
 }
 .details_section .third_column .parent .count .number{
     display: flex;
@@ -118,6 +119,69 @@
     border: 1px solid #000000;
     outline: none;
     color: #2F5233;
-    padding: 12px 25px;
-    margin-left: 30px;
+    padding: 12px 45px;
+    margin-left: 20px;
+    width: 74%;
+}
+.details_section .third_column .btn_buy{
+    background: #2F5233;
+    color: white;
+    margin-top: 15px;
+    width: 100%;
+    padding: 13px;
+    outline: none;
+    border: none;
+}
+
+
+
+
+.line{
+    margin-top: 50px;
+    width: 100%;
+    padding: 25px 0px;
+    border-top: 1px solid rgb(223, 223, 223);
+    border-bottom: 1px solid rgb(223, 223, 223);
+}
+.line span{
+    margin-right: 40px;
+    padding: 8px 0px;
+}
+.line span:nth-child(1){
+    border-bottom: 1px solid black;
+}
+
+
+
+
+.information_section{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.information_section p{
+    color: #666666;
+    font-size: 15px;
+}
+.information_section .first_column p{
+    margin-top: 25px;
+    width: 90%;
+}
+.information_section .second_column p{
+    margin-bottom: 25px;
+}
+.information_section .second_column .img_box{
+    display: flex;
+    justify-content: flex-end;
+}
+.information_section .second_column .img_box img{
+    width: 95%;
+    height: 450px;
+    object-fit: cover;
+}
+.information_section .second_column .head{
+    font-style: normal;
+    font-weight: 500;
+    margin-bottom: 30px;
+    font-size: 34px;
+    color: #000000;
 }
